@@ -2,11 +2,12 @@ Die sq;
 int dieTotal = 0;
 
 void setup() {
-  background(#CBC14A);
+  noLoop();
   size(600, 600);
+  background(#CBC14A);
   textAlign(CENTER);
   rectMode(CENTER);
-  noLoop();
+
 }
 
 void draw() {
